@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label_main.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label_main.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label_main.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_main.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="label_main.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 20</value>
+  </data>
+  <data name="label_main.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_main.Text" xml:space="preserve">
+    <value>Inventory Management System</value>
+  </data>
+  <data name="&gt;&gt;label_main.Name" xml:space="preserve">
+    <value>label_main</value>
+  </data>
+  <data name="&gt;&gt;label_main.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_main.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_main.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label_parts.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_parts.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="label_parts.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_parts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 53</value>
+  </data>
+  <data name="label_parts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="label_parts.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label_parts.Text" xml:space="preserve">
+    <value>Parts</value>
+  </data>
+  <data name="&gt;&gt;label_parts.Name" xml:space="preserve">
+    <value>label_parts</value>
+  </data>
+  <data name="&gt;&gt;label_parts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_parts.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_parts.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="part_search.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="part_search.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 53</value>
+  </data>
+  <data name="part_search.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="part_search.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="part_search.Text" xml:space="preserve">
+    <value>&amp;Search</value>
+  </data>
+  <data name="&gt;&gt;part_search.Name" xml:space="preserve">
+    <value>part_search</value>
+  </data>
+  <data name="&gt;&gt;part_search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;part_search.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;part_search.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="partsearchval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 55</value>
+  </data>
+  <data name="partsearchval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 20</value>
+  </data>
+  <data name="partsearchval.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;partsearchval.Name" xml:space="preserve">
+    <value>partsearchval</value>
+  </data>
+  <data name="&gt;&gt;partsearchval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;partsearchval.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;partsearchval.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="dgParts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 91</value>
+  </data>
+  <data name="dgParts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 150</value>
+  </data>
+  <data name="dgParts.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dgParts.Name" xml:space="preserve">
+    <value>dgParts</value>
+  </data>
+  <data name="&gt;&gt;dgParts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgParts.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgParts.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="part_add.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="part_add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 259</value>
+  </data>
+  <data name="part_add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="part_add.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="part_add.Text" xml:space="preserve">
+    <value>&amp;Add Part</value>
+  </data>
+  <data name="&gt;&gt;part_add.Name" xml:space="preserve">
+    <value>part_add</value>
+  </data>
+  <data name="&gt;&gt;part_add.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;part_add.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;part_add.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="part_edit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="part_edit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 259</value>
+  </data>
+  <data name="part_edit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="part_edit.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="part_edit.Text" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="&gt;&gt;part_edit.Name" xml:space="preserve">
+    <value>part_edit</value>
+  </data>
+  <data name="&gt;&gt;part_edit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;part_edit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;part_edit.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="part_delete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="part_delete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 259</value>
+  </data>
+  <data name="part_delete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="part_delete.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="part_delete.Text" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="&gt;&gt;part_delete.Name" xml:space="preserve">
+    <value>part_delete</value>
+  </data>
+  <data name="&gt;&gt;part_delete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;part_delete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;part_delete.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="product_delete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="product_delete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 259</value>
+  </data>
+  <data name="product_delete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="product_delete.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="product_delete.Text" xml:space="preserve">
+    <value>De&amp;lete</value>
+  </data>
+  <data name="&gt;&gt;product_delete.Name" xml:space="preserve">
+    <value>product_delete</value>
+  </data>
+  <data name="&gt;&gt;product_delete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;product_delete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;product_delete.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="product_edit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="product_edit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>642, 259</value>
+  </data>
+  <data name="product_edit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="product_edit.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="product_edit.Text" xml:space="preserve">
+    <value>Ed&amp;it</value>
+  </data>
+  <data name="&gt;&gt;product_edit.Name" xml:space="preserve">
+    <value>product_edit</value>
+  </data>
+  <data name="&gt;&gt;product_edit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;product_edit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;product_edit.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="product_add.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="product_add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>561, 259</value>
+  </data>
+  <data name="product_add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="product_add.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="product_add.Text" xml:space="preserve">
+    <value>Add &amp;Product</value>
+  </data>
+  <data name="&gt;&gt;product_add.Name" xml:space="preserve">
+    <value>product_add</value>
+  </data>
+  <data name="&gt;&gt;product_add.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;product_add.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;product_add.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="dgProducts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>476, 91</value>
+  </data>
+  <data name="dgProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 150</value>
+  </data>
+  <data name="dgProducts.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;dgProducts.Name" xml:space="preserve">
+    <value>dgProducts</value>
+  </data>
+  <data name="&gt;&gt;dgProducts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgProducts.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgProducts.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="prodsearchval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>549, 53</value>
+  </data>
+  <data name="prodsearchval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 20</value>
+  </data>
+  <data name="prodsearchval.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;prodsearchval.Name" xml:space="preserve">
+    <value>prodsearchval</value>
+  </data>
+  <data name="&gt;&gt;prodsearchval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prodsearchval.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;prodsearchval.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="product_search.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="product_search.Location" type="System.Drawing.Point, System.Drawing">
+    <value>754, 51</value>
+  </data>
+  <data name="product_search.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="product_search.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="product_search.Text" xml:space="preserve">
+    <value>Sea&amp;rch</value>
+  </data>
+  <data name="&gt;&gt;product_search.Name" xml:space="preserve">
+    <value>product_search</value>
+  </data>
+  <data name="&gt;&gt;product_search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;product_search.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;product_search.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label_products.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_products.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="label_products.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_products.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 53</value>
+  </data>
+  <data name="label_products.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="label_products.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label_products.Text" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="&gt;&gt;label_products.Name" xml:space="preserve">
+    <value>label_products</value>
+  </data>
+  <data name="&gt;&gt;label_products.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_products.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_products.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmd_exit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmd_exit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>829, 330</value>
+  </data>
+  <data name="cmd_exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="cmd_exit.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cmd_exit.Text" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="&gt;&gt;cmd_exit.Name" xml:space="preserve">
+    <value>cmd_exit</value>
+  </data>
+  <data name="&gt;&gt;cmd_exit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmd_exit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmd_exit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="clearpartsearch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="clearpartsearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 53</value>
+  </data>
+  <data name="clearpartsearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="clearpartsearch.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="clearpartsearch.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;clearpartsearch.Name" xml:space="preserve">
+    <value>clearpartsearch</value>
+  </data>
+  <data name="&gt;&gt;clearpartsearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clearpartsearch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;clearpartsearch.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="clearprodsearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>836, 51</value>
+  </data>
+  <data name="clearprodsearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
+  </data>
+  <data name="clearprodsearch.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="clearprodsearch.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;clearprodsearch.Name" xml:space="preserve">
+    <value>clearprodsearch</value>
+  </data>
+  <data name="&gt;&gt;clearprodsearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clearprodsearch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;clearprodsearch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>923, 365</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Main Screen - Bart Denison (BDenis3)</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>InventoryForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
